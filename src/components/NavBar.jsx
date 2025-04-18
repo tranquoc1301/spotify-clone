@@ -1,7 +1,10 @@
 import React, { useState } from "react";
+// import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const [activeTab, setActiveTab] = useState("All");
+
+  // const navigate = useNavigate();
 
   const tabs = ["All", "Music", "Podcast"];
 

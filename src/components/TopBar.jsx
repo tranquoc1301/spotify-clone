@@ -23,7 +23,12 @@ const TopBar = () => {
       <div className="flex items-center gap-2 w-[30%] justify-center">
         {/* Home Button */}
         <div className="p-2 bg-[#191919] rounded-full cursor-pointer hover:scale-105 transition-transform">
-          <img className="w-5 h-5" src={assets.home_icon} alt="Home" />
+          <img
+            className="w-5 h-5"
+            src={assets.home_icon}
+            alt="Home"
+            onClick={() => (window.location.href = "/")}
+          />
         </div>
 
         {/* Search Bar */}
